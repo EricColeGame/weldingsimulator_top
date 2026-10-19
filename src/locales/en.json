@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core job loop, workshop movement, and first welding actions with a structured walkthrough."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Welding Techniques",
+          "description": "Compare MIG, Stick, and TIG welding and learn which process suits each joint."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Scoring System",
+          "description": "Understand work angle, travel angle, speed, distance, and straightness before your next job."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Welding Simulator."
+          "title": "Career Progression",
+          "description": "Turn clean job results into workshop upgrades, better equipment, and larger contracts."
         }
       ]
     },
@@ -66,73 +66,55 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Welding Techniques",
+        "Career Mode",
+        "Workshop Upgrades"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Start with the job loop, controls, and first scored practice passes.",
+          "href": "/guide/welding-simulator-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Techniques",
+          "title": "MIG, Stick & TIG",
+          "description": "Compare the three welding methods and the joints each one suits.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Career",
+          "title": "Career Mode Guide",
+          "description": "Plan contracts, consumables, certifications, and shop growth.",
+          "href": "/modes/welding-simulator-career-mode"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Upgrades",
+          "title": "Workshop Upgrades",
+          "description": "Choose reliability upgrades before cosmetic purchases.",
+          "href": "/guide/welding-simulator-training-guide"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Scoring",
+          "title": "Weld Scoring System",
+          "description": "Understand the five numbers behind every practice score.",
+          "href": "/guide/welding-simulator-scoring-system"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Practice",
+          "title": "Practice Plan",
+          "description": "Build a repeatable drill routine for cleaner first attempts.",
+          "href": "/guide/welding-simulator-practice"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Welding Simulator?",
       "paragraphs": [
-        "Welding Simulator is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Welding Simulator is a Roblox welding shop game from Ice Panda Studios. Players take on metalworking jobs, switch between MIG, Stick, and TIG welding, and use the money they earn to improve their workshop.",
+        "The progression loop centers on cleaner welds and better equipment. Complete the 27 MIG jobs, work toward an A-grade result, collect welding helmets, and expand your shop across PC, mobile, and console."
       ],
       "stats": [
         {
@@ -145,186 +127,272 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Welding Shop Simulator"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Welding Methods",
+          "value": "3"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "MIG Jobs",
+          "value": "27"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Weld Goal",
+          "value": "A Grade"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Device Types",
+          "value": "3"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Welding Simulator Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Use these Welding Simulator guides to learn the job loop, compare welding methods, plan upgrades, and improve every scored pass.",
       "modules": [
         {
           "order": 1,
-          "name": "Welding Simulator Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes",
-          "displayType": "code-box",
+          "name": "Welding Simulator Beginner Guide",
+          "description": "Follow the first-session loop: accept a welding job, prepare the metal, run practice beads, and finish your first paid weld.",
+          "href": "/guide/welding-simulator-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Prepare the joint and clean rust, paint, or oil before you start welding."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Run a few scrap beads to set your stance, grip, and travel rhythm."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Lock the work angle first, then adjust travel angle, speed, and distance."
+            },
+            {
+              "label": "4",
+              "detail": "Check the scorecard after every pass and fix one variable at a time."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Welding Simulator Codes",
+          "description": "Check the current code status for Welding Simulator and learn where to look for any future Roblox code announcements.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Status",
+              "detail": "The official Roblox page does not list any active Welding Simulator codes."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Updates",
+              "detail": "Check the Roblox game page for new Welding Simulator announcements."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Focus",
+              "detail": "Earn your first cash through MIG jobs and reinvest it in the workshop."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/tier-list",
+          "name": "Welding Simulator Welding Techniques",
+          "description": "Compare MIG, Stick, and TIG welding, then use scored practice to choose the right process for each joint.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "MIG - Self-feeding wire makes this the easiest process for learning travel speed, angle, and gas coverage."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Stick - Practice striking and restarting the arc before using it on thicker structural joints."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "TIG - Two-handed torch and filler control reward clean metal and precise movement."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Practice - Run scored scrap passes before a paid job to calibrate heat and motion."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/skills",
-          "displayType": "feature-cards",
+          "name": "Welding Simulator Money Making Guide",
+          "description": "Turn clean job results into steady income by managing consumables, practice stock, and contract difficulty.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Take small flat-position jobs and finish them cleanly before bidding on larger builds."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Keep a consumables buffer and practice stock so one failed weld does not stall the shop."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Upgrade reliability before speed: better machines, cleaner cuts, and steadier work habits."
+            },
+            {
+              "label": "4",
+              "detail": "Spend earnings on one useful upgrade at a time and keep cash available for the next contract."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Welding Simulator Upgrades Guide",
+          "description": "Plan workshop upgrades around reliability first: ventilation, machine capability, cutting tools, lighting, storage, and space.",
+          "href": "/guide/welding-simulator-training-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Safety",
+              "detail": "Ventilation and a comfortable workspace come before cosmetic shop upgrades."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Machine",
+              "detail": "A wider power range lets one machine handle more materials and thicknesses."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Cutting",
+              "detail": "Cleaner cuts produce tighter fit-up and less rework on every job."
+            },
+            {
+              "label": "Lighting",
+              "detail": "Bright bench lighting makes bead shape and joint alignment easier to read."
+            },
+            {
+              "label": "Storage",
+              "detail": "Organized tools shorten setup time between welding jobs."
+            },
+            {
+              "label": "Space",
+              "detail": "Workshop expansion unlocks larger multi-part builds such as go-karts."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/skills",
-          "displayType": "feature-cards",
+          "name": "Welding Simulator Jobs and Projects",
+          "description": "Work through small frames, table components, and larger builds while keeping fit-up and material planning under control.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Frames",
+              "detail": "Simple frames and table components are common early welding projects."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Tables",
+              "detail": "Metal tables combine measuring, cutting, fit-up, and multi-part joins."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Go-karts",
+              "detail": "Larger builds such as go-karts demand tighter planning and a stable cash buffer."
+            },
+            {
+              "label": "Stock",
+              "detail": "Measure and cut material before joining so gaps do not turn into rework."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Welding Simulator Controls Guide",
+          "description": "Learn how movement, torch control, and practice reps work on keyboard and gamepad before taking a paid project.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Keyboard",
+              "detail": "Keyboard and mouse handle first-person movement and torch control on PC."
+            },
+            {
+              "label": "Gamepad",
+              "detail": "Welding Simulator lists Xbox controller support alongside keyboard and mouse."
+            },
+            {
+              "label": "Practice",
+              "detail": "Run scrap beads before a paid job to set your stance and travel rhythm."
+            },
+            {
+              "label": "Settings",
+              "detail": "Review the controls menu for current bindings before starting a session."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Welding Simulator Tips and Tricks",
+          "description": "Use focused practice, steady travel speed, clean joints, and replay review to raise every weld score.",
+          "href": "/guide/welding-simulator-practice",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "One Fix",
+              "detail": "Correct one scorecard variable at a time instead of chasing every error."
+            },
+            {
+              "label": "Tempo",
+              "detail": "Count a steady cadence to keep travel speed consistent along the seam."
+            },
+            {
+              "label": "Clean",
+              "detail": "Grind rust, paint, and oil from the joint before striking an arc."
+            },
+            {
+              "label": "Replay",
+              "detail": "Review saved passes to compare a clean weld with a failed attempt."
+            },
+            {
+              "label": "Warmup",
+              "detail": "Spend ten minutes on practice beads before each welding session."
+            },
+            {
+              "label": "Buffer",
+              "detail": "Keep enough stock for two full jobs before buying another upgrade."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Welding Simulator.",
+      "title": "Welding Simulator FAQ",
+      "description": "Quick answers about Welding Simulator gameplay, welding methods, grades, upgrades, and platforms.",
       "items": [
         {
           "question": "What is Welding Simulator?",
-          "answer": "Welding Simulator is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Welding Simulator is a Roblox welding shop game from Ice Panda Studios. You complete metalworking jobs with MIG, Stick, and TIG equipment, earn money, and reinvest it in your workshop."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which welding method should I learn first in Welding Simulator?",
+          "answer": "Start with MIG in Welding Simulator. The wire feeds automatically, so you can focus on travel speed, work angle, and gas coverage before moving on to Stick and TIG."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I improve my weld grade in Welding Simulator?",
+          "answer": "Fix one scored variable at a time in Welding Simulator: work angle first, then travel angle, travel speed, nozzle distance, and straightness."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What should I upgrade first in Welding Simulator?",
+          "answer": "In Welding Simulator, protect a consumables buffer and practice stock before buying cosmetic items, then improve machine capability, cutting tools, lighting, and workspace."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Welding Simulator support controllers and mobile?",
+          "answer": "Welding Simulator is listed for PC, mobile, and console devices, and the Steam version lists Xbox controller support."
+        },
+        {
+          "question": "How many MIG jobs are in Welding Simulator?",
+          "answer": "The Roblox version of Welding Simulator lists 27 MIG jobs, with an A-grade weld as a target result."
         }
       ]
     },
