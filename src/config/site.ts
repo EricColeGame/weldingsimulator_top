@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/games/112817436495652/Welding-Simulator",
     youtube: "https://www.youtube.com/watch?v=GpSHr59Pi6w",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt-BR", "pl"],
   defaultLocale: "en",
 };
