@@ -11,12 +11,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const LOCALE_LABELS: Record<string, string> = {
+const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
   es: "Español",
-  pt: "Português",
-  de: "Deutsch",
-  fr: "Français",
+  "pt-BR": "Português (Brasil)",
+  pl: "Polski",
 };
 
 /**
@@ -48,7 +47,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground">
           <Globe className="h-4 w-4" />
-          <span>{LOCALE_LABELS[locale] || locale.toUpperCase()}</span>
+          <span>{LOCALE_LABELS[locale as Locale] || locale.toUpperCase()}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-[140px]">
