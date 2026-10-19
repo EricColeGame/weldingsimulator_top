@@ -1,1 +1,477 @@
-{}
+{
+  "site": {
+    "name": "Welding Simulator Wiki",
+    "shortName": "Welding Simulator",
+    "tagline": "Poradniki spawania MIG, Stick i TIG, prace i ulepszenia warsztatu",
+    "description": "Twoja kompleksowa wiki Welding Simulator na Roblox: opanuj spawanie MIG, Stick i TIG, wykonuj prace, ulepszaj warsztat, kolekcjonuj hełmy i rozwijaj firmę spawalniczą.",
+    "legalNotice": "Nieoficjalna wiki fanowska. Stworzona przez graczy dla graczy."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "menu": "Menu",
+    "toggleTheme": "Przełącz motyw",
+    "guide": "Poradnik",
+    "platforms": "Platformy",
+    "mechanics": "Mechaniki",
+    "modes": "Tryby",
+    "comparison": "Porównania",
+    "access": "Dostęp",
+    "community": "Społeczność"
+  },
+  "home": {
+    "meta": {
+      "title": "Welding Simulator Wiki — poradniki, narzędzia i wskazówki",
+      "description": "Poznaj poradniki do Welding Simulator o spawaniu MIG, Stick i TIG, ulepszeniach warsztatu, przejściach prac, hełmach, wskazówkach dotyczących progresji i najnowszych aktualizacjach gry."
+    },
+    "hero": {
+      "eyebrow": "Symulator warsztatu spawalniczego Roblox",
+      "title": "Welding Simulator Wiki",
+      "description": "Opanuj spawanie MIG, Stick i TIG, wykonuj prace metalowe, ulepszaj warsztat, kolekcjonuj hełmy spawalnicze i buduj swoją firmę spawalniczą.",
+      "stats": [
+        "3 metody spawania",
+        "27 prac MIG",
+        "PC, mobile i konsole",
+        "Cel: spawanie na ocenę A"
+      ],
+      "primaryCta": "Poradnik dla początkujących",
+      "secondaryCta": "Mechaniki spawania",
+      "tertiaryCta": "Graj na Roblox",
+      "videoLabel": "Wideo z rozgrywki"
+    },
+    "updates": {
+      "title": "Najnowsze aktualizacje",
+      "browse": "Przeglądaj wszystkie poradniki",
+      "viewAll": "Zobacz wszystko"
+    },
+    "start": {
+      "eyebrow": "Zacznij tutaj",
+      "title": "Twoja droga w Welding Simulator",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Poradnik dla początkujących",
+          "description": "Poznaj podstawową pętlę zadań, poruszanie się po warsztacie i pierwsze czynności spawalnicze dzięki uporządkowanemu przejściu."
+        },
+        {
+          "number": "2",
+          "title": "Techniki spawania",
+          "description": "Porównaj spawanie MIG, Stick i TIG i dowiedz się, która metoda pasuje do danego złącza."
+        },
+        {
+          "number": "3",
+          "title": "System oceniania",
+          "description": "Zrozum kąt pracy, kąt prowadzenia, prędkość, odległość i prostoliniowość przed kolejnym zadaniem."
+        },
+        {
+          "number": "4",
+          "title": "Rozwój kariery",
+          "description": "Zamień czyste wyniki prac w ulepszenia warsztatu, lepszy sprzęt i większe kontrakty."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Popularne strony",
+      "title": "Teraz na czasie",
+      "quickLinks": [
+        "Poradnik dla początkujących",
+        "Techniki spawania",
+        "Tryb kariery",
+        "Ulepszenia warsztatu"
+      ],
+      "cards": [
+        {
+          "badge": "Początkujący",
+          "title": "Poradnik dla początkujących",
+          "description": "Zacznij od pętli zadań, sterowania i pierwszych ocenianych prób.",
+          "href": "/guide/welding-simulator-beginner-guide"
+        },
+        {
+          "badge": "Techniki",
+          "title": "MIG, Stick i TIG",
+          "description": "Porównaj trzy metody spawania i złącza, do których najlepiej pasuje każda z nich.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw"
+        },
+        {
+          "badge": "Kariera",
+          "title": "Poradnik trybu kariery",
+          "description": "Zaplanuj kontrakty, materiały eksploatacyjne, certyfikaty i rozwój warsztatu.",
+          "href": "/modes/welding-simulator-career-mode"
+        },
+        {
+          "badge": "Ulepszenia",
+          "title": "Ulepszenia warsztatu",
+          "description": "Wybieraj ulepszenia niezawodności przed zakupami kosmetycznymi.",
+          "href": "/guide/welding-simulator-training-guide"
+        },
+        {
+          "badge": "Ocena",
+          "title": "System oceny spoin",
+          "description": "Zrozum pięć liczb stojących za każdą oceną praktyki.",
+          "href": "/guide/welding-simulator-scoring-system"
+        },
+        {
+          "badge": "Praktyka",
+          "title": "Plan praktyki",
+          "description": "Zbuduj powtarzalny plan ćwiczeń, aby poprawić pierwsze próby.",
+          "href": "/guide/welding-simulator-practice"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Czym jest Welding Simulator?",
+      "paragraphs": [
+        "Welding Simulator to gra o warsztacie spawalniczym na Roblox od Ice Panda Studios. Gracze wykonują prace metalowe, przełączają się między spawaniem MIG, Stick i TIG, a zarobione pieniądze przeznaczają na ulepszanie warsztatu.",
+        "Pętla progresji opiera się na czystszych spoinach i lepszym sprzęcie. Ukończ 27 prac MIG, dąż do wyniku na ocenę A, kolekcjonuj hełmy spawalnicze i rozwijaj warsztat na PC, urządzeniach mobilnych i konsolach."
+      ],
+      "stats": [
+        {
+          "label": "Deweloper",
+          "value": "Ice Panda Studios"
+        },
+        {
+          "label": "Platforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gatunek",
+          "value": "Symulator warsztatu spawalniczego"
+        },
+        {
+          "label": "Metody spawania",
+          "value": "3"
+        },
+        {
+          "label": "Prace MIG",
+          "value": "27"
+        },
+        {
+          "label": "Cel spawania",
+          "value": "Ocena A"
+        },
+        {
+          "label": "Typy urządzeń",
+          "value": "3"
+        }
+      ],
+      "cta": "Przeglądaj wszystkie poradniki"
+    },
+    "explore": {
+      "title": "Poznaj wiki Welding Simulator",
+      "description": "Skorzystaj z tych poradników do Welding Simulator, aby poznać pętlę zadań, porównać metody spawania, zaplanować ulepszenia i poprawić każdą ocenianą próbę.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Poradnik dla początkujących w Welding Simulator",
+          "description": "Przejdź przez pierwszą sesję: przyjmij zadanie spawalnicze, przygotuj metal, wykonaj próbne ściegi i ukończ pierwszą płatną spoinę.",
+          "href": "/guide/welding-simulator-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Przygotuj złącze i usuń rdzę, farbę lub olej przed rozpoczęciem spawania."
+            },
+            {
+              "label": "2",
+              "detail": "Wykonaj kilka ściegów na złomie, aby ustawić postawę, chwyt i rytm prowadzenia."
+            },
+            {
+              "label": "3",
+              "detail": "Najpierw ustal kąt pracy, a następnie dostosuj kąt prowadzenia, prędkość i odległość."
+            },
+            {
+              "label": "4",
+              "detail": "Sprawdzaj kartę wyników po każdej próbie i poprawiaj jedną zmienną naraz."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Kody do Welding Simulator",
+          "description": "Sprawdź aktualny stan kodów do Welding Simulator i dowiedz się, gdzie szukać przyszłych ogłoszeń o kodach na Roblox.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Status",
+              "detail": "Oficjalna strona Roblox nie wymienia żadnych aktywnych kodów do Welding Simulator."
+            },
+            {
+              "label": "Aktualizacje",
+              "detail": "Sprawdzaj stronę gry na Roblox, aby poznać nowe ogłoszenia dotyczące Welding Simulator."
+            },
+            {
+              "label": "Cel",
+              "detail": "Zarób pierwsze pieniądze dzięki pracom MIG i zainwestuj je w warsztat."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Techniki spawania w Welding Simulator",
+          "description": "Porównaj spawanie MIG, Stick i TIG, a następnie wykorzystaj ocenianą praktykę, aby wybrać odpowiednią metodę dla każdego złącza.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "MIG — samopodający drut sprawia, że jest to najłatwiejsza metoda nauki prędkości prowadzenia, kąta i osłony gazowej."
+            },
+            {
+              "label": "A",
+              "detail": "Stick — ćwicz zapalanie i wznawianie łuku, zanim użyjesz go do grubszych złączy konstrukcyjnych."
+            },
+            {
+              "label": "B",
+              "detail": "TIG — dwuręczne sterowanie palnikiem i spoiwem nagradza czysty metal i precyzyjne ruchy."
+            },
+            {
+              "label": "C",
+              "detail": "Praktyka — wykonaj oceniane próby na złomie przed płatną pracą, aby skalibrować ciepło i ruch."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Poradnik zarabiania w Welding Simulator",
+          "description": "Zamień czyste wyniki prac w stały dochód, zarządzając materiałami eksploatacyjnymi, zapasem do praktyki i trudnością kontraktów.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Przyjmuj małe zadania w pozycji płaskiej i kończ je czysto, zanim zaczniesz licytować większe konstrukcje."
+            },
+            {
+              "label": "2",
+              "detail": "Utrzymuj zapas materiałów eksploatacyjnych i materiału do praktyki, aby jedna nieudana spoina nie zatrzymała warsztatu."
+            },
+            {
+              "label": "3",
+              "detail": "Ulepszaj niezawodność przed szybkością: lepsze maszyny, czystsze cięcia i stabilniejsze nawyki pracy."
+            },
+            {
+              "label": "4",
+              "detail": "Wydawaj zarobki na jedno przydatne ulepszenie naraz i zachowuj gotówkę na następny kontrakt."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Poradnik ulepszeń Welding Simulator",
+          "description": "Planuj ulepszenia warsztatu z myślą o niezawodności: wentylacja, możliwości maszyny, narzędzia do cięcia, oświetlenie, przechowywanie i przestrzeń.",
+          "href": "/guide/welding-simulator-training-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bezpieczeństwo",
+              "detail": "Wentylacja i wygodne miejsce pracy są ważniejsze niż kosmetyczne ulepszenia warsztatu."
+            },
+            {
+              "label": "Maszyna",
+              "detail": "Szerszy zakres mocy pozwala jednej maszynie obsłużyć więcej materiałów i grubości."
+            },
+            {
+              "label": "Cięcie",
+              "detail": "Czystsze cięcia dają lepsze dopasowanie i mniej poprawek w każdej pracy."
+            },
+            {
+              "label": "Oświetlenie",
+              "detail": "Jasne oświetlenie stołu ułatwia ocenę kształtu ściegu i wyrównania złącza."
+            },
+            {
+              "label": "Przechowywanie",
+              "detail": "Uporządkowane narzędzia skracają czas przygotowania między pracami spawalniczymi."
+            },
+            {
+              "label": "Przestrzeń",
+              "detail": "Rozbudowa warsztatu odblokowuje większe konstrukcje wieloczęściowe, takie jak gokarty."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Prace i projekty w Welding Simulator",
+          "description": "Przechodź przez małe ramy, elementy stołów i większe konstrukcje, utrzymując pod kontrolą dopasowanie i planowanie materiałów.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ramy",
+              "detail": "Proste ramy i elementy stołów to częste projekty spawalnicze na początku."
+            },
+            {
+              "label": "Stoły",
+              "detail": "Metalowe stoły łączą pomiar, cięcie, dopasowanie i łączenie wielu części."
+            },
+            {
+              "label": "Gokarty",
+              "detail": "Większe konstrukcje, takie jak gokarty, wymagają dokładniejszego planowania i stabilnego zapasu gotówki."
+            },
+            {
+              "label": "Materiał",
+              "detail": "Zmierz i przetnij materiał przed łączeniem, aby szczeliny nie zamieniły się w poprawki."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Poradnik sterowania w Welding Simulator",
+          "description": "Poznaj działanie ruchu, sterowania palnikiem i powtórzeń praktyki na klawiaturze i padzie, zanim podejmiesz płatny projekt.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Klawiatura",
+              "detail": "Klawiatura i mysz obsługują ruch pierwszoosobowy oraz sterowanie palnikiem na PC."
+            },
+            {
+              "label": "Pad",
+              "detail": "Welding Simulator wymienia obsługę pada Xbox obok klawiatury i myszy."
+            },
+            {
+              "label": "Praktyka",
+              "detail": "Wykonaj próbne ściegi przed płatną pracą, aby ustawić postawę i rytm prowadzenia."
+            },
+            {
+              "label": "Ustawienia",
+              "detail": "Sprawdź menu sterowania, aby poznać aktualne przypisania przed rozpoczęciem sesji."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Wskazówki i triki do Welding Simulator",
+          "description": "Wykorzystaj skoncentrowaną praktykę, stałą prędkość prowadzenia, czyste złącza i analizę powtórzeń, aby podnieść każdą ocenę spoiny.",
+          "href": "/guide/welding-simulator-practice",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Jedna poprawka",
+              "detail": "Poprawiaj jedną zmienną z karty wyników naraz, zamiast ścigać wszystkie błędy."
+            },
+            {
+              "label": "Tempo",
+              "detail": "Licz stały rytm, aby utrzymać równą prędkość prowadzenia wzdłuż spoiny."
+            },
+            {
+              "label": "Czystość",
+              "detail": "Usuń szlifierką rdzę, farbę i olej ze złącza przed zapaleniem łuku."
+            },
+            {
+              "label": "Powtórka",
+              "detail": "Przeglądaj zapisane próby, aby porównać czystą spoinę z nieudaną."
+            },
+            {
+              "label": "Rozgrzewka",
+              "detail": "Poświęć dziesięć minut na próbne ściegi przed każdą sesją spawania."
+            },
+            {
+              "label": "Zapas",
+              "detail": "Utrzymuj zapas materiału na dwie pełne prace, zanim kupisz kolejne ulepszenie."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Najczęstsze pytania o Welding Simulator",
+      "description": "Szybkie odpowiedzi na temat rozgrywki, metod spawania, ocen, ulepszeń i platform w Welding Simulator.",
+      "items": [
+        {
+          "question": "Czym jest Welding Simulator?",
+          "answer": "Welding Simulator to gra o warsztacie spawalniczym na Roblox od Ice Panda Studios. Wykonujesz prace metalowe sprzętem MIG, Stick i TIG, zarabiasz pieniądze i reinwestujesz je w warsztat."
+        },
+        {
+          "question": "Której metody spawania nauczyć się najpierw w Welding Simulator?",
+          "answer": "Zacznij od MIG w Welding Simulator. Drut podaje się automatycznie, więc możesz skupić się na prędkości prowadzenia, kącie pracy i osłonie gazowej, zanim przejdziesz do Stick i TIG."
+        },
+        {
+          "question": "Jak poprawić ocenę spoiny w Welding Simulator?",
+          "answer": "Poprawiaj jedną ocenianą zmienną naraz w Welding Simulator: najpierw kąt pracy, potem kąt prowadzenia, prędkość prowadzenia, odległość dyszy i prostoliniowość."
+        },
+        {
+          "question": "Co ulepszyć najpierw w Welding Simulator?",
+          "answer": "W Welding Simulator zabezpiecz zapas materiałów eksploatacyjnych i materiału do praktyki, zanim kupisz przedmioty kosmetyczne; następnie popraw możliwości maszyny, narzędzia do cięcia, oświetlenie i przestrzeń roboczą."
+        },
+        {
+          "question": "Czy Welding Simulator obsługuje pady i urządzenia mobilne?",
+          "answer": "Welding Simulator jest dostępny na PC, urządzenia mobilne i konsole, a wersja na Steam wymienia obsługę pada Xbox."
+        },
+        {
+          "question": "Ile prac MIG jest w Welding Simulator?",
+          "answer": "Wersja na Roblox gry Welding Simulator wymienia 27 prac MIG, a docelowym wynikiem jest spoina na ocenę A."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Gotowy, aby opanować Welding Simulator?",
+      "description": "Od pierwszej pracy MIG po spoiny na ocenę A — nasza społecznościowa wiki obejmuje każdą metodę spawania, ulepszenie warsztatu i hełm dzięki darmowym, aktualnym poradnikom.",
+      "primary": "Przeczytaj poradnik dla początkujących",
+      "secondary": "Graj na Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Poradniki do Welding Simulator",
+    "overviewDescription": "Przejścia dla początkujących, rutyny praktyki, porady dotyczące oceniania i plany treningowe do każdej pracy w Welding Simulator."
+  },
+  "platforms": {
+    "overviewTitle": "Platformy Welding Simulator",
+    "overviewDescription": "Poradniki platformowe dla Welding Simulator na PC, Steam, VR, Meta Quest, urządzenia mobilne i konsole."
+  },
+  "mechanics": {
+    "overviewTitle": "Mechaniki Welding Simulator",
+    "overviewDescription": "Poznaj spawanie MIG, TIG i Stick, pozycje spawania, rodzaje złączy i normy kontroli w Welding Simulator."
+  },
+  "modes": {
+    "overviewTitle": "Tryby gry w Welding Simulator",
+    "overviewDescription": "Poradniki trybu kariery, wieloosobowego, szkolenia VR i wyzwań dla graczy Welding Simulator."
+  },
+  "comparison": {
+    "overviewTitle": "Porównania Welding Simulator",
+    "overviewDescription": "Zobacz, jak Welding Simulator wypada na tle WeldVR, Weld Pro 3D i innych realistycznych gier spawalniczych."
+  },
+  "access": {
+    "overviewTitle": "Dostęp do Welding Simulator",
+    "overviewDescription": "Szczegóły pobierania, darmowej gry, Steam, PS5 i dostępności na Xbox dla Welding Simulator."
+  },
+  "community": {
+    "overviewTitle": "Społeczność Welding Simulator",
+    "overviewDescription": "Relacje z trailerów, filmy z rozgrywki, dyskusje na Reddicie i recenzje graczy dotyczące Welding Simulator."
+  },
+  "shared": {
+    "wikiNavigation": "Nawigacja wiki",
+    "activeCodes": "Aktywne kody",
+    "updated": "Zaktualizowano",
+    "viewAllCodes": "Zobacz wszystkie kody",
+    "playOnRoblox": "Graj na Roblox",
+    "inThisSection": "W tej sekcji",
+    "tableOfContents": "Spis treści",
+    "nextSteps": "Następne kroki",
+    "needHelp": "Potrzebujesz pomocy?",
+    "relatedReading": "Powiązane lektury",
+    "relatedGuides": "Powiązane poradniki",
+    "readMore": "Czytaj więcej",
+    "officialMedia": "Oficjalne media",
+    "home": "Strona główna",
+    "noGuidesAvailable": "Nie ma jeszcze dostępnych poradników. Wróć wkrótce!"
+  },
+  "footer": {
+    "aboutTitle": "Welding Simulator Wiki",
+    "about": "Welding Simulator Wiki to niezależne centrum poradników tworzone przez fanów, obejmujące spawanie MIG, Stick i TIG, prace, ulepszenia warsztatu, hełmy i wskazówki dotyczące progresji dla nowych i doświadczonych graczy.",
+    "quickLinks": "Szybkie linki",
+    "guides": "Poradniki",
+    "legal": "Informacje prawne",
+    "copyright": "2026 Welding Simulator Wiki. Niepowiązane z Ice Panda Studios ani Roblox.",
+    "description": "Symulator warsztatu spawalniczego Roblox z pracami MIG, Stick i TIG, ulepszeniami warsztatu i kolekcjonowaniem hełmów.",
+    "playGame": "Graj na Roblox",
+    "officialDiscord": "Oficjalna strona Roblox",
+    "officialYoutube": "Wideo z rozgrywki",
+    "vvBuilder": "Poradnik narzędzi spawalniczych",
+    "beginnerGuide": "Poradnik dla początkujących",
+    "raceGuides": "Metody spawania",
+    "bossGuides": "Tryby gry",
+    "buildGuide": "Poradniki platform",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Warunki korzystania z usługi"
+  }
+}

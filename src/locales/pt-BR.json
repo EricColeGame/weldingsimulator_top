@@ -1,1 +1,477 @@
-{}
+{
+  "site": {
+    "name": "Welding Simulator Wiki",
+    "shortName": "Welding Simulator",
+    "tagline": "Guias de soldagem MIG, Stick e TIG, trabalhos e melhorias da oficina",
+    "description": "Sua wiki definitiva de Welding Simulator para Roblox: domine a soldagem MIG, Stick e TIG, conclua trabalhos, melhore sua oficina, colecione capacetes e amplie seu negócio de soldagem.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "platforms": "Plataformas",
+    "mechanics": "Mecânicas",
+    "modes": "Modos",
+    "comparison": "Comparativo",
+    "access": "Acesso",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Welding Simulator Wiki — guias, ferramentas e dicas",
+      "description": "Explore guias de Welding Simulator sobre soldagem MIG, Stick e TIG, melhorias da oficina, passo a passo de trabalhos, capacetes, dicas de progressão e as últimas atualizações do jogo."
+    },
+    "hero": {
+      "eyebrow": "Simulador de oficina de soldagem do Roblox",
+      "title": "Welding Simulator Wiki",
+      "description": "Domine a soldagem MIG, Stick e TIG, conclua trabalhos de metalurgia, melhore sua oficina, colecione capacetes de solda e construa seu negócio de soldagem.",
+      "stats": [
+        "3 métodos de soldagem",
+        "27 trabalhos MIG",
+        "PC, celular e console",
+        "Meta: solda nota A"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Mecânicas de soldagem",
+      "tertiaryCta": "Jogar no Roblox",
+      "videoLabel": "Vídeo de gameplay"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Welding Simulator",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda o ciclo básico de trabalhos, a movimentação na oficina e as primeiras ações de soldagem com um passo a passo estruturado."
+        },
+        {
+          "number": "2",
+          "title": "Técnicas de soldagem",
+          "description": "Compare a soldagem MIG, Stick e TIG e descubra qual processo combina com cada junta."
+        },
+        {
+          "number": "3",
+          "title": "Sistema de pontuação",
+          "description": "Entenda o ângulo de trabalho, o ângulo de deslocamento, a velocidade, a distância e a retidão antes do próximo trabalho."
+        },
+        {
+          "number": "4",
+          "title": "Progressão de carreira",
+          "description": "Transforme resultados limpos em melhorias da oficina, equipamentos melhores e contratos maiores."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta agora",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Técnicas de soldagem",
+        "Modo carreira",
+        "Melhorias da oficina"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Comece pelo ciclo de trabalhos, pelos controles e pelas primeiras passagens de prática pontuadas.",
+          "href": "/guide/welding-simulator-beginner-guide"
+        },
+        {
+          "badge": "Técnicas",
+          "title": "MIG, Stick e TIG",
+          "description": "Compare os três métodos de soldagem e as juntas às quais cada um se adapta melhor.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw"
+        },
+        {
+          "badge": "Carreira",
+          "title": "Guia do modo carreira",
+          "description": "Planeje contratos, consumíveis, certificações e o crescimento da oficina.",
+          "href": "/modes/welding-simulator-career-mode"
+        },
+        {
+          "badge": "Melhorias",
+          "title": "Melhorias da oficina",
+          "description": "Escolha melhorias de confiabilidade antes de compras estéticas.",
+          "href": "/guide/welding-simulator-training-guide"
+        },
+        {
+          "badge": "Pontuação",
+          "title": "Sistema de pontuação de solda",
+          "description": "Entenda os cinco números por trás de cada pontuação de prática.",
+          "href": "/guide/welding-simulator-scoring-system"
+        },
+        {
+          "badge": "Prática",
+          "title": "Plano de prática",
+          "description": "Crie uma rotina de exercícios repetível para primeiras tentativas mais limpas.",
+          "href": "/guide/welding-simulator-practice"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Welding Simulator?",
+      "paragraphs": [
+        "Welding Simulator é um jogo de oficina de soldagem do Roblox, da Ice Panda Studios. Os jogadores assumem trabalhos de metalurgia, alternam entre soldagem MIG, Stick e TIG e usam o dinheiro que ganham para melhorar a oficina.",
+        "O ciclo de progressão gira em torno de soldas mais limpas e equipamentos melhores. Conclua os 27 trabalhos MIG, busque um resultado nota A, colecione capacetes de solda e amplie sua oficina no PC, celular e console."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedora",
+          "value": "Ice Panda Studios"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Simulador de oficina de soldagem"
+        },
+        {
+          "label": "Métodos de soldagem",
+          "value": "3"
+        },
+        {
+          "label": "Trabalhos MIG",
+          "value": "27"
+        },
+        {
+          "label": "Meta de solda",
+          "value": "Nota A"
+        },
+        {
+          "label": "Tipos de dispositivo",
+          "value": "3"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore a wiki de Welding Simulator",
+      "description": "Use estes guias de Welding Simulator para aprender o ciclo de trabalhos, comparar métodos de soldagem, planejar melhorias e aprimorar cada passagem pontuada.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de Welding Simulator",
+          "description": "Siga o ciclo da primeira sessão: aceite um trabalho de soldagem, prepare o metal, faça cordões de prática e conclua sua primeira solda remunerada.",
+          "href": "/guide/welding-simulator-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Prepare a junta e limpe ferrugem, tinta ou óleo antes de começar a soldar."
+            },
+            {
+              "label": "2",
+              "detail": "Faça alguns cordões em sucata para ajustar sua postura, pegada e ritmo de deslocamento."
+            },
+            {
+              "label": "3",
+              "detail": "Fixe primeiro o ângulo de trabalho; depois ajuste o ângulo de deslocamento, a velocidade e a distância."
+            },
+            {
+              "label": "4",
+              "detail": "Confira o cartão de pontuação após cada passagem e corrija uma variável por vez."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Códigos de Welding Simulator",
+          "description": "Confira o status atual dos códigos de Welding Simulator e saiba onde procurar futuros anúncios de códigos no Roblox.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Status",
+              "detail": "A página oficial do Roblox não lista nenhum código ativo de Welding Simulator."
+            },
+            {
+              "label": "Atualizações",
+              "detail": "Confira a página do jogo no Roblox para ver novos anúncios de Welding Simulator."
+            },
+            {
+              "label": "Foco",
+              "detail": "Ganhe seu primeiro dinheiro com trabalhos MIG e reinvista na oficina."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Técnicas de soldagem de Welding Simulator",
+          "description": "Compare a soldagem MIG, Stick e TIG e use a prática pontuada para escolher o processo certo para cada junta.",
+          "href": "/mechanics/welding-simulator-smaw-gtaw-gmaw",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "MIG — o arame se alimenta sozinho, o que torna este o processo mais fácil para aprender velocidade de deslocamento, ângulo e cobertura de gás."
+            },
+            {
+              "label": "A",
+              "detail": "Stick — pratique acender e reiniciar o arco antes de usá-lo em juntas estruturais mais espessas."
+            },
+            {
+              "label": "B",
+              "detail": "TIG — o controle de tocha e vareta com as duas mãos recompensa metal limpo e movimentos precisos."
+            },
+            {
+              "label": "C",
+              "detail": "Prática — faça passagens pontuadas em sucata antes de um trabalho remunerado para calibrar calor e movimento."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guia de como ganhar dinheiro em Welding Simulator",
+          "description": "Transforme resultados limpos em renda constante gerenciando consumíveis, estoque de prática e dificuldade dos contratos.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Pegue trabalhos pequenos na posição plana e conclua-os com limpeza antes de disputar construções maiores."
+            },
+            {
+              "label": "2",
+              "detail": "Mantenha uma reserva de consumíveis e estoque de prática para que uma solda malsucedida não pare a oficina."
+            },
+            {
+              "label": "3",
+              "detail": "Melhore a confiabilidade antes da velocidade: máquinas melhores, cortes mais limpos e hábitos de trabalho mais estáveis."
+            },
+            {
+              "label": "4",
+              "detail": "Gaste os ganhos em uma melhoria útil por vez e mantenha dinheiro disponível para o próximo contrato."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de melhorias de Welding Simulator",
+          "description": "Planeje as melhorias da oficina pensando primeiro na confiabilidade: ventilação, capacidade da máquina, ferramentas de corte, iluminação, armazenamento e espaço.",
+          "href": "/guide/welding-simulator-training-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Segurança",
+              "detail": "Ventilação e um espaço de trabalho confortável vêm antes de melhorias estéticas na oficina."
+            },
+            {
+              "label": "Máquina",
+              "detail": "Uma faixa de potência mais ampla permite que uma única máquina trabalhe com mais materiais e espessuras."
+            },
+            {
+              "label": "Corte",
+              "detail": "Cortes mais limpos geram encaixes mais justos e menos retrabalho em cada trabalho."
+            },
+            {
+              "label": "Iluminação",
+              "detail": "Uma iluminação forte na bancada facilita a leitura do formato do cordão e do alinhamento da junta."
+            },
+            {
+              "label": "Armazenamento",
+              "detail": "Ferramentas organizadas reduzem o tempo de preparação entre trabalhos de soldagem."
+            },
+            {
+              "label": "Espaço",
+              "detail": "A expansão da oficina desbloqueia construções maiores com várias peças, como karts."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Trabalhos e projetos de Welding Simulator",
+          "description": "Avance por estruturas pequenas, componentes de mesa e construções maiores, mantendo o encaixe e o planejamento de materiais sob controle.",
+          "href": "/modes/welding-simulator-career-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Estruturas",
+              "detail": "Estruturas simples e componentes de mesa são projetos de soldagem comuns no início."
+            },
+            {
+              "label": "Mesas",
+              "detail": "Mesas de metal combinam medição, corte, encaixe e uniões de várias peças."
+            },
+            {
+              "label": "Karts",
+              "detail": "Construções maiores, como karts, exigem planejamento mais rigoroso e uma reserva de dinheiro estável."
+            },
+            {
+              "label": "Estoque",
+              "detail": "Meça e corte o material antes de unir para que as folgas não virem retrabalho."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guia de controles de Welding Simulator",
+          "description": "Aprenda como funcionam movimentação, controle da tocha e repetições de prática no teclado e no controle antes de aceitar um projeto remunerado.",
+          "href": "/guide/welding-simulator-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Teclado",
+              "detail": "Teclado e mouse controlam a movimentação em primeira pessoa e a tocha no PC."
+            },
+            {
+              "label": "Controle",
+              "detail": "Welding Simulator lista suporte a controle Xbox além de teclado e mouse."
+            },
+            {
+              "label": "Prática",
+              "detail": "Faça cordões em sucata antes de um trabalho remunerado para ajustar sua postura e ritmo de deslocamento."
+            },
+            {
+              "label": "Configurações",
+              "detail": "Revise o menu de controles para ver os atalhos atuais antes de iniciar uma sessão."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dicas e truques de Welding Simulator",
+          "description": "Use prática focada, velocidade de deslocamento constante, juntas limpas e revisão de repetições para elevar cada pontuação de solda.",
+          "href": "/guide/welding-simulator-practice",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Uma correção",
+              "detail": "Corrija uma variável do cartão de pontuação por vez em vez de perseguir todos os erros."
+            },
+            {
+              "label": "Tempo",
+              "detail": "Conte um ritmo constante para manter a velocidade de deslocamento uniforme ao longo da costura."
+            },
+            {
+              "label": "Limpeza",
+              "detail": "Remova com a esmerilhadeira ferrugem, tinta e óleo da junta antes de acender o arco."
+            },
+            {
+              "label": "Replay",
+              "detail": "Revise as passagens salvas para comparar uma solda limpa com uma tentativa malsucedida."
+            },
+            {
+              "label": "Aquecimento",
+              "detail": "Reserve dez minutos para cordões de prática antes de cada sessão de soldagem."
+            },
+            {
+              "label": "Reserva",
+              "detail": "Mantenha estoque suficiente para dois trabalhos completos antes de comprar outra melhoria."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre Welding Simulator",
+      "description": "Respostas rápidas sobre a jogabilidade, os métodos de soldagem, as notas, as melhorias e as plataformas de Welding Simulator.",
+      "items": [
+        {
+          "question": "O que é Welding Simulator?",
+          "answer": "Welding Simulator é um jogo de oficina de soldagem do Roblox, da Ice Panda Studios. Você conclui trabalhos de metalurgia com equipamentos MIG, Stick e TIG, ganha dinheiro e reinveste na oficina."
+        },
+        {
+          "question": "Qual método de soldagem devo aprender primeiro em Welding Simulator?",
+          "answer": "Comece com MIG em Welding Simulator. O arame é alimentado automaticamente, então você pode focar na velocidade de deslocamento, no ângulo de trabalho e na cobertura de gás antes de passar para Stick e TIG."
+        },
+        {
+          "question": "Como melhorar minha nota de solda em Welding Simulator?",
+          "answer": "Corrija uma variável pontuada por vez em Welding Simulator: primeiro o ângulo de trabalho, depois o ângulo de deslocamento, a velocidade de deslocamento, a distância do bico e a retidão."
+        },
+        {
+          "question": "O que devo melhorar primeiro em Welding Simulator?",
+          "answer": "Em Welding Simulator, proteja uma reserva de consumíveis e estoque de prática antes de comprar itens estéticos; depois melhore a capacidade da máquina, as ferramentas de corte, a iluminação e o espaço de trabalho."
+        },
+        {
+          "question": "Welding Simulator tem suporte a controles e celular?",
+          "answer": "Welding Simulator está listado para PC, dispositivos móveis e consoles, e a versão de Steam lista suporte a controle Xbox."
+        },
+        {
+          "question": "Quantos trabalhos MIG existem em Welding Simulator?",
+          "answer": "A versão de Roblox de Welding Simulator lista 27 trabalhos MIG, com uma solda nota A como resultado-alvo."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar Welding Simulator?",
+      "description": "Do primeiro trabalho MIG às soldas nota A, nossa wiki da comunidade cobre cada método de soldagem, melhoria da oficina e capacete com guias gratuitos e atualizados.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias de Welding Simulator",
+    "overviewDescription": "Passo a passo para iniciantes, rotinas de prática, dicas de pontuação e planos de treinamento para cada trabalho de Welding Simulator."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Welding Simulator",
+    "overviewDescription": "Guias de plataforma para Welding Simulator no PC, Steam, VR, Meta Quest, celular e console."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Welding Simulator",
+    "overviewDescription": "Aprenda soldagem MIG, TIG e Stick, posições de soldagem, tipos de junta e padrões de inspeção em Welding Simulator."
+  },
+  "modes": {
+    "overviewTitle": "Modos de jogo de Welding Simulator",
+    "overviewDescription": "Guias de modo carreira, multijogador, treinamento em VR e desafios para jogadores de Welding Simulator."
+  },
+  "comparison": {
+    "overviewTitle": "Comparativos de Welding Simulator",
+    "overviewDescription": "Veja como Welding Simulator se compara com WeldVR, Weld Pro 3D e outros jogos de soldagem realistas."
+  },
+  "access": {
+    "overviewTitle": "Acesso a Welding Simulator",
+    "overviewDescription": "Detalhes de download, jogo gratuito, Steam, PS5 e disponibilidade no Xbox para Welding Simulator."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Welding Simulator",
+    "overviewDescription": "Cobertura do trailer, vídeos de gameplay, discussões no Reddit e avaliações de jogadores sobre Welding Simulator."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Códigos ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras relacionadas",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Welding Simulator Wiki",
+    "about": "Welding Simulator Wiki é um hub de guias independente feito por fãs, cobrindo soldagem MIG, Stick e TIG, trabalhos, melhorias da oficina, capacetes e dicas de progressão para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Welding Simulator Wiki. Não afiliado à Ice Panda Studios nem à Roblox.",
+    "description": "Simulador de oficina de soldagem do Roblox com trabalhos MIG, Stick e TIG, melhorias da oficina e coleção de capacetes.",
+    "playGame": "Jogar no Roblox",
+    "officialDiscord": "Página oficial do Roblox",
+    "officialYoutube": "Vídeo de gameplay",
+    "vvBuilder": "Guia de ferramentas de soldagem",
+    "beginnerGuide": "Guia para iniciantes",
+    "raceGuides": "Métodos de soldagem",
+    "bossGuides": "Modos de jogo",
+    "buildGuide": "Guias de plataformas",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço"
+  }
+}
