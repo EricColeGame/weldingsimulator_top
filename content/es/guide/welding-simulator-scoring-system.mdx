@@ -1,0 +1,114 @@
+export const metadata = {
+  title: "Sistema de puntuación del simulador de soldadura explicado: cómo funcionan las puntuaciones de soldadura en VR",
+  description: "Descubre cómo un sistema de puntuación de simulador de soldadura evalúa el ángulo de trabajo, el ángulo de avance, la velocidad, la distancia y la rectitud, y cómo convertir esa retroalimentación en habilidad real.",
+  category: "guide",
+  date: "2026-10-19",
+}
+
+Un cordón que se ve uniforme puede aun así fallar una prueba de doblado, y para entonces el estudiante ya ha consumido alambre, gas y plancha. Ese es el problema que resuelve un **sistema de puntuación de simulador de soldadura**: pone un número a los detalles que tus ojos no pueden captar de forma fiable en tiempo real. En lugar de un instructor inclinado sobre el hombro del aprendiz, este recibe retroalimentación instantánea y objetiva en cada pasada.
+
+Eso importa tanto si diriges un taller de secundaria, un laboratorio de un college comunitario o un programa de recualificación para adultos. Un **sistema de puntuación de simulador de soldadura** bien diseñado hace más que clasificar a los estudiantes: hace visible la técnica, de modo que la práctica se vuelve deliberada en lugar de meramente repetitiva. Esta guía desglosa qué se mide, cómo los ajustes de dificultad cambian las reglas y cómo convertir un informe de puntuación en un plan de entrenamiento que realmente marque la diferencia.
+
+## Qué mide realmente un sistema de puntuación de simulador de soldadura
+
+La mayoría de las plataformas de soldadura virtual diseñadas para la educación técnica y profesional puntúan el mismo conjunto básico de variables. El ampliamente utilizado [simulador de soldadura guideWELD VR de Realityworks](https://www.realityworks.com/product/realcareer-guideweld-vr-welding-simulator/) es un buen punto de referencia: informa sobre cinco parámetros medibles en tiempo real y guarda una evaluación registrada después de cada soldadura.
+
+| Parámetro puntuado | Qué registra el sistema | Error típico del principiante | Por qué importa en acero real |
+| --- | --- | --- | --- |
+| Ángulo de trabajo | La inclinación lateral de la pistola respecto a la unión | Pistola sostenida demasiado perpendicular en una unión en T | Penetración desigual y un lado del cordón que queda frío |
+| Ángulo de avance | La inclinación hacia delante o hacia atrás de la pistola a lo largo de la costura | Empujar en lugar de arrastrar en un proceso de ángulo de arrastre | Perfil de cordón deficiente, inclusiones de escoria, fusión inconsistente |
+| Velocidad de avance | La rapidez con la que la pistola se desplaza por la unión | Apresurar el último tercio de la pasada | Cordones finos y convexos y falta de fusión en los bordes |
+| Distancia boquilla-plancha | La separación entre la pistola y la pieza de trabajo | Acercarse más a medida que el brazo se cansa | Pérdida de cobertura del gas de protección y porosidad |
+| Rectitud | Qué tan fielmente el cordón sigue la línea prevista | Desviarse de la línea central de la unión | Unión no cubierta, retrabajo e inspección visual fallida |
+
+Como estas cinco variables se puntúan por separado, el aprendiz puede ver *por qué* una soldadura obtuvo una calificación baja y no solo *que* la obtuvo. Dos estudiantes pueden quedar ambos en la mitad de la tabla —uno por la distancia del arco, el otro por la velocidad de avance— y cada uno necesita una corrección completamente distinta.
+
+Hay algo más que conviene saber: la plataforma calcula el ahorro en costes de material en cada soldadura virtual. Eso convierte el sistema de puntuación en un documento presupuestario además de una herramienta didáctica, lo cual resulta útil cuando hay que justificar el equipo ante un administrador.
+
+## Cómo los niveles de dificultad y los ajustes de WPS cambian las reglas de puntuación
+
+Una puntuación no significa nada sin contexto, así que los simuladores permiten a los instructores controlar ese contexto de dos maneras: el nivel de dificultad y la Especificación de Procedimiento de Soldadura (WPS).
+
+La estructura típica de tres niveles es así:
+
+| Nivel de dificultad | Qué se vuelve más estricto | Para qué se usa mejor |
+| --- | --- | --- |
+| Principiante | Bandas de tolerancia amplias; tolerante con la desviación de ángulos y las variaciones de velocidad | Primer contacto con el arco, exploración en secundaria, eventos de captación |
+| Intermedio | Tolerancias moderadas; premia un ritmo constante y una distancia uniforme | Estudiantes de segundo año, rotaciones de laboratorio, controles de preparación previos al taller |
+| Avanzado | Tolerancias estrictas en los cinco parámetros | Estudiantes que se preparan para practicar la certificación con equipo real |
+
+Los instructores que dejan todas las estaciones en Principiante obtienen una lectura falsa de la preparación. Un aprendiz puede obtener buenos resultados en el ajuste más fácil y aun así tener dificultades en el momento en que enciende el arco sobre plancha de acero. La solución es sencilla: cuando un estudiante supera un margen cómodo en un nivel, hay que subirlo en lugar de dejar que acumule puntos fáciles.
+
+El segundo control es la WPS. Una plataforma bien equipada incluye una biblioteca de especificaciones predeterminadas —el sistema guideWELD VR incluye 27 para MIG y electrodo revestido— y permite crear WPS personalizadas. Cada especificación define los ángulos, la velocidad y la distancia objetivo para una unión y un proceso determinados, y el **sistema de puntuación de simulador de soldadura** califica la soldadura frente a *ese* objetivo y no frente a un ideal universal.
+
+| Proceso | Énfasis de la puntuación | Sorpresa habitual para los nuevos usuarios |
+| --- | --- | --- |
+| GMAW (MIG) | Velocidad de avance uniforme, distancia de boquilla estable, ángulo de trabajo constante | La rapidez con la que un pequeño cambio de distancia se traduce en riesgo de porosidad |
+| SMAW (electrodo revestido) | Ángulo de avance y consistencia de la longitud del arco; ritmo a lo largo de la pasada | Cuánto afecta el ángulo de arrastre a la forma del cordón |
+
+La geometría de la unión también importa. Las uniones en T, traslapadas y a tope cargan la mano de la pistola de manera distinta, y por eso practicar las tres —en lugar de insistir en una favorita— genera una memoria muscular más transferible.
+
+## Cómo leer un informe de evaluación de soldadura
+
+La puntuación en sí es la parte menos interesante del informe. Lo que importa es el patrón que hay detrás. Después de cada soldadura, una buena plataforma genera una captura además de una repetición, y los informes de instructores en la comunidad coinciden en señalar que la repetición es donde los estudiantes tienen su momento de "ah, eso fue lo que hice".
+
+Revisa el informe en este orden:
+
+- **Comprueba primero la rectitud.** Si el cordón se desvió, las puntuaciones de ángulo y velocidad quedan contaminadas: el aprendiz estaba persiguiendo la unión en lugar de mantener una postura estable.
+- **Compara el ángulo de trabajo y el ángulo de avance juntos.** Quien corrige en exceso uno de ellos suele desajustar el otro.
+- **Observa la deriva de la distancia a lo largo del tiempo.** Una distancia de boquilla que empeora al final de una pasada casi siempre indica fatiga o una postura incómoda.
+- **Lee la velocidad al final.** Los errores de velocidad suelen ser consecuencia de los errores de ángulo; si corriges la postura, el ritmo a menudo se corrige solo.
+- **Compara la captura guardada con la soldadura anterior.** La mejora entre soldaduras es una señal mejor que cualquier puntuación individual.
+
+| Síntoma en el informe | Causa raíz probable | Corrección del instructor |
+| --- | --- | --- |
+| Rectitud deficiente, ángulos aceptables | Posición del cuerpo demasiado lejos de la unión; sin apoyo | Reposicionar la postura, apoyar el antebrazo, ralentizar la preparación |
+| La puntuación de distancia cae en el último tercio | Fatiga del brazo o arrastre del cable de la pistola | Acortar la pasada, ajustar el recorrido del cable, restablecer el agarre |
+| Velocidad alta pero ángulos correctos | Prisa nerviosa; sin referencia de ritmo | Contar una cadencia en voz alta o usar un ejercicio con metrónomo |
+| Ángulos inconsistentes de una pasada a otra | Cambios de agarre entre soldaduras | Estandarizar la verificación del agarre antes de cada inicio de arco |
+
+## Convertir las puntuaciones en habilidad: un plan de práctica de cuatro semanas
+
+Las puntuaciones solo se acumulan cuando la práctica está estructurada. El plan siguiente supone dos o tres sesiones cortas por semana en lugar de una larga: las repeticiones breves y frecuentes construyen memoria muscular más rápido que los bloques maratónicos.
+
+| Semana | Enfoque | Ejercicio | Señal de éxito |
+| --- | --- | --- | --- |
+| 1 | Línea base | Tres soldaduras por unión en Principiante; guardar todos los informes | Emerge un parámetro más débil con claridad |
+| 2 | Repeticiones de una sola variable | Diez pasadas cortas centradas solo en el parámetro más débil | La puntuación de ese parámetro tiende a subir a lo largo de las repeticiones |
+| 3 | Control combinado | Pasadas de longitud completa en Intermedio en las tres uniones | Ningún parámetro cae en la banda más baja |
+| 4 | Prueba de presión | Pasadas cronometradas en Avanzado y luego una soldadura real en la cabina | Los hábitos del simulador se mantienen con el equipo real |
+
+Dos reglas mantienen esto honesto. Primera: nunca persigas una puntuación perfecta en un parámetro a costa de otro; el objetivo es el equilibrio, porque una soldadura real falla por su peor característica, no por la mejor. Segunda: termina siempre una sesión con una pasada limpia y deliberada en lugar de parar con una descuidada. La última repetición es la que el cuerpo recuerda.
+
+## Logística de aula y ROI de la puntuación con simulador
+
+Un sistema de puntuación solo es útil si los estudiantes tienen suficientes repeticiones para generar datos. Realityworks recomienda cuatro simuladores para una clase de 20 estudiantes, lo cual encaja con un modelo de rotación: un grupo suelda en vivo, otro realiza pasadas puntuadas en el simulador, otro avanza por el currículo y otro revisa los informes de evaluación de la rotación anterior.
+
+| Tamaño de la clase | Número sugerido de simuladores | Modelo de rotación |
+| --- | --- | --- |
+| 10–12 | 2 | Rotación de dos estaciones con retroalimentación entre compañeros |
+| 20 | 4 | Rotación de cuatro grupos, bloques de 15–20 minutos |
+| 30+ | 6 o más | Estaciones escalonadas más revisión de informes de toda la clase en el monitor externo |
+
+Algunas notas prácticas que evitan dolores de cabeza:
+
+- Los monitores, ordenadores y cascos normalmente **no** están incluidos: presupuesta para ellos por separado.
+- El software se instala en Windows y macOS y no tiene cuotas de licencia, así que las máquinas del laboratorio se pueden reimagen sin coste adicional.
+- Los guantes de soldadura estándar funcionan; no se necesita un casco dedicado.
+- Los paquetes curriculares suelen durar más de 25 horas repartidas en unidades sobre seguridad, defectos de soldadura y fundamentos de soldadura, lo que te da material estructurado para combinar con la práctica puntuada.
+
+El argumento financiero es directo: cada pasada virtual no consume alambre, gas ni plancha, y la plataforma registra el coste de material evitado por soldadura. A lo largo de un semestre, esa cifra es la diapositiva más persuasiva de cualquier solicitud de presupuesto.
+
+## Preguntas frecuentes
+
+**¿Qué tan preciso es un sistema de puntuación de simulador de soldadura comparado con una soldadura real?**
+Es un sustituto, no un reemplazo. El sistema mide las variables mecánicas que producen una buena soldadura —ángulos, velocidad, distancia y rectitud— con mucha más consistencia que la observación humana. No mide la penetración ni la fusión, y por eso la práctica puntuada siempre debe dar paso a la soldadura real antes de la certificación.
+
+**¿Pueden los estudiantes usar el sistema de puntuación sin un instructor vigilando cada pasada?**
+Sí. Como la retroalimentación es inmediata y las evaluaciones se guardan, los aprendices pueden realizar práctica independiente supervisada y revisar sus propios informes. Eso libera al instructor para entrenar a los estudiantes que realmente necesitan intervención.
+
+**¿Se transfieren las puntuaciones al rendimiento real en soldadura?**
+Los informes de instructores describen repetidamente a principiantes que llegan a la cabina con una idea funcional de cómo se siente la técnica correcta, lo que acorta la etapa inicial de tanteo. La transferencia es más fuerte cuando los estudiantes alternan sesiones de simulador con tiempo de arco real en lugar de tratar el simulador como un curso aislado.
+
+**¿Cuál es la mejor forma de mejorar rápido una puntuación baja?**
+Aislar una variable. Realiza pasadas cortas centradas solo en la velocidad de avance o solo en la distancia de boquilla y vuelve a puntuar. Intentar corregirlo todo a la vez suele producir un resultado ambiguo: el sistema de puntuación de simulador de soldadura mostrará mejora, pero no te dirá qué corrección funcionó.

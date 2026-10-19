@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "comparison": "Comparison",
+    "access": "Access",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -27,7 +34,7 @@
         "A-Grade Weld Goal"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Welding Codes",
+      "secondaryCta": "Welding Mechanics",
       "tertiaryCta": "Play on Roblox",
       "videoLabel": "Gameplay video"
     },
@@ -403,7 +410,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Welding Simulator Guides",
+    "overviewDescription": "Beginner walkthroughs, practice routines, scoring advice, and training plans for every Welding Simulator job."
+  },
+  "platforms": {
+    "overviewTitle": "Welding Simulator Platforms",
+    "overviewDescription": "Platform guides for Welding Simulator on PC, Steam, VR, Meta Quest, mobile, and console."
+  },
+  "mechanics": {
+    "overviewTitle": "Welding Simulator Mechanics",
+    "overviewDescription": "Learn MIG, TIG, and Stick welding, welding positions, joint types, and inspection standards in Welding Simulator."
+  },
+  "modes": {
+    "overviewTitle": "Welding Simulator Game Modes",
+    "overviewDescription": "Career mode, multiplayer, VR training, and challenge guides for Welding Simulator players."
+  },
+  "comparison": {
+    "overviewTitle": "Welding Simulator Comparisons",
+    "overviewDescription": "See how Welding Simulator compares with WeldVR, Weld Pro 3D, and other realistic welding games."
+  },
+  "access": {
+    "overviewTitle": "Welding Simulator Access",
+    "overviewDescription": "Download, free-play, Steam, PS5, and Xbox availability details for Welding Simulator."
+  },
+  "community": {
+    "overviewTitle": "Welding Simulator Community",
+    "overviewDescription": "Trailer coverage, gameplay videos, Reddit discussion, and player reviews for Welding Simulator."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -435,8 +469,8 @@
     "vvBuilder": "Welding Tools Guide",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Welding Methods",
-    "bossGuides": "Job Guides",
-    "buildGuide": "Upgrade Guide",
+    "bossGuides": "Game Modes",
+    "buildGuide": "Platform Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
