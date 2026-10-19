@@ -31,16 +31,18 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
           <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl">{home.hero.title}</h1>
           <span className="mt-2 inline-flex items-center rounded-md border border-[hsl(var(--nav-theme))] bg-[hsl(var(--nav-theme))] px-2.5 py-0.5 text-xs font-semibold text-primary-foreground sm:-translate-y-1.5">{home.hero.eyebrow}</span>
         </div>
-        {YOUTUBE_VIDEO_ID && (
-          <div className="mx-auto mt-5 max-w-2xl">
-            <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
-          </div>
-        )}
         <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground">{home.hero.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">{home.hero.stats.map((stat) => <span key={stat} className="inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">{stat}</span>)}</div>
       </section>
 
-      {/* Native banner right below the hero (course §3.5) */}
+      {/* Gameplay video directly after the hero */}
+      {YOUTUBE_VIDEO_ID && (
+        <section aria-label="Welding Simulator gameplay video" className="mx-auto w-full max-w-5xl">
+          <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
+        </section>
+      )}
+
+      {/* Native banner right below the video (course §3.5) */}
       <NativeBannerAd />
 
       {/* 最近更新 + 新手教程 两栏布局 */}

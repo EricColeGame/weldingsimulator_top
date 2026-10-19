@@ -20,9 +20,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
   const header = (
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
-        <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border bg-muted shadow-sm">
-          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" />
-        </div>
+        <span aria-hidden="true" className="grid h-9 w-9 place-items-center rounded-xl bg-[hsl(var(--nav-theme))] text-sm font-black text-white shadow-sm">{siteConfig.logoText}</span>
         <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.name}</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
@@ -72,10 +70,11 @@ export async function SiteFooter({ locale }: { locale: string }) {
 function FooterList({ locale, title, links }: { locale: string; title: string; links: string[][] }) { return <div><h4 className="font-semibold text-foreground">{title}</h4><ul className="mt-3 space-y-2 text-sm text-muted-foreground">{links.map(([label, href]) => <li key={href}><Link className="hover:text-foreground" href={href.startsWith("/") ? localizeHref(href, locale) : href}>{label}</Link></li>)}</ul></div>; }
 
 export function TrailerCard({ videoId }: { videoId: string }) {
+  const thumbnailSrc = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "/images/hero.webp";
   return (
     <div className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border shadow-lg transition-all duration-200">
       <div className="relative aspect-video w-full">
-        <img src={videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "/images/hero.webp"} alt={siteConfig.name} className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
+        <img src={thumbnailSrc} alt={`${siteConfig.shortName} gameplay video`} className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { const image = e.currentTarget; if (videoId && image.dataset.fallback !== "hqdefault") { image.dataset.fallback = "hqdefault"; image.src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`; return; } image.src = "/images/hero.webp"; }} />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex size-20 items-center justify-center rounded-full bg-primary/10 backdrop-blur-md transition-transform duration-200 group-hover:scale-105 sm:size-24">
